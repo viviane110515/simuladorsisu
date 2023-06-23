@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 2em;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #187d3f;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 2.5em;
+    text-shadow: 0px 5px 5px #d68d0f;
+}
+
+main {
+    background-color: white;
+    height: 480px;
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #f08f10;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+input {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    text-align: center;
+}
+
+input#curso {
+    width: 80%;
+    display: block;
+    margin: 5px auto 15px auto;
+}
+
+table {
+    margin: auto;
+}
+
+#pcurso {
+    text-align: center;
+}
+
+.notas {
+    width: 120px;
+
+}
+
+button {
+    background-color: #ff9d00;
+    border: none;
+    border-radius: 20px;
+    padding: 6px;
+    display: block;
+    margin: 10px auto;
+    color: white;
+    font-size: 0.7;
+    width: 200px;
+}
+
+button:active {
+    background-color: #53262d;
+}
+
+#aviso {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador SISU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Simulador Sisu</h1>
+        <p id="aviso">Use ponto ao invés de vírgula! Ex.: 652,3 vira 652.3</p>
+    </header>
+
+    <main>
+        <p id="pcurso">Nome do curso:</p> <input type="text" name="curso" id="curso" placeholder="ex.: Medicina">
+
+        <table>
+            <tr>
+                <td><p>Redação:</p></td>
+                <td><input class="notas" type="number" name="redac" id="redac" min="100" max="1000" value="100" lang="pt-br"></td>
+                <td><p>Peso:</p></td>
+                <td><input type="number" name="p_redac" id="p_redac" value="1" min="1" max="5"></td>
+            </tr>
+
+            <tr>
+                <td><p>Linguagens:</p></td>
+                <td><input class="notas" type="number" name="ling" id="ling" min="100" max="1000" value="100" lang="pt-br"></td>
+                <td><p>Peso:</p></td>
+                <td><input type="number" name="p_ling" id="p_ling" value="1" min="1" max="5"></td>
+            </tr>
+
+            <tr>
+                <td><p>Humanas:</p></td>
+                <td><input class="notas" type="number" name="hum" id="hum" min="100" max="1000" value="100" lang="pt-br"></td>
+                <td><p>Peso:</p></td>
+                <td><input type="number" name="p_hum" id="p_hum" value="1" min="1" max="5"></td>
+            </tr>
+
+            <tr>
+                <td><p>Naturezas:</p></td>
+                <td><input class="notas" type="number" name="nat" id="nat" min="100" max="1000" value="100" lang="pt-br"></td>
+                <td><p>Peso:</p></td>
+                <td><input type="number" name="p_nat" id="p_nat" value="1" min="1" max="5"></td>
+            </tr>
+
+            <tr>
+                <td><p>Matemática:</p></td>
+                <td><input class="notas" type="number" name="mat" id="mat" min="100" max="1000" value="100" lang="pt-br"></td>
+                <td><p>Peso:</p></td>
+                <td><input type="number" name="p_mat" id="p_mat" value="1" min="1" max="5"></td>
+            </tr>
+        </table>
+
+        <button onclick="calcular()"><p>Calcular</p></button>
+
+        <p id="res">Sua média no curso aparecerá aqui.</p>
+    </main>
+
+        <script src="script.js"></script>
+</body>
+</html>
